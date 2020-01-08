@@ -1,0 +1,29 @@
+Remarques sur Score
+====================
+Bertrand MERLIER
+merlier2@free.fr
+
+1) parfois touche DEL, parfois SUPR
+Je ne comprends pas la logique
+
+2) j'importe X fichiers audio de tailles différentes.
+Ils s'empilent tous verticalement ; or je préfèrerais les avoir à la suite.
+Les containers sont tous ajustés sur le fichier le plus long ? (ou sur le premier fichier de la liste) ; or je voudrais que les containers ne changent pas de longueur
+
+3) quand je rétrécis les containers afin de les remettre à la bonne longueur : je ne sais plus quelle est la bonne longueur ! Il faut zommer et remettre au pif la bonne longueur
+Je suggère clic droit sur le fichier audio et : fit container to audio
+
+4) problème d'échelle
+Je travaille sur un projet de 27 minutes ; j'importe 10 fichiers audio de 1 à 2mn.
+Ces fichiers sont séparés de 1 à 2mn de silence.
+(donc 12 mn de son répartis en 10 fichiers) positionnés sur 27 mn.
+Problème : ils sont tellement gros qu'ils remplissent tous l'écran.
+Il faut sans cesse zoomer et dézoomer
+Les 27 mn de la table de travail ne suffisent pas pour mettre tous les fichiers
+(voir photo d'écran)
+
+5) J'importe 10 fichiers audio avec des noms explicites : Atmosphères 1 à 12.
+Score me les renomme : Intervel.oeil ou .12 ou .10 ou Interval (.4)
+
+6) liste des objets importés avec leurs caractéristiques, à la façon EXCEL
+
