@@ -21,9 +21,282 @@ Problème : ils sont tellement gros qu'ils remplissent tous l'écran.
 Il faut sans cesse zoomer et dézoomer
 Les 27 mn de la table de travail ne suffisent pas pour mettre tous les fichiers
 (voir photo d'écran)
+Après vérification : il ne semble pas y avoir d'erreur d'affichage.
+Mais les objets semblent très gros et la surface de travail très petite.
+
 
 5) J'importe 10 fichiers audio avec des noms explicites : Atmosphères 1 à 12.
 Score me les renomme : Intervel.oeil ou .12 ou .10 ou Interval (.4)
 
 6) liste des objets importés avec leurs caractéristiques, à la façon EXCEL
+Histoire de savoir ce que l'on a dans le projet.
+Editer certaines de ces caractéristiques statiques (dans une liste / et non pas sur l'écran de travail) serait un plus
+
+7) 1 crash logiciel à l'import audio ???
+A la ré-ouverture, SCORE a perdu une très grande partie des fichiers audio importés
+(voir photo d'écran)
+
+8) Import audio :
+Si on importe les fichiers 1 par 1, alors le nom est respecté. (mais on perd beaucoup de temps)
+
+9) import audio :
+J'importe donc les fichiers 1 par 1 : ils se collent soit n'importe où / soit obligatoirement à un autre objet.
+J'aimerais bien a) importer tous mes matériaux b) puis les structurer
+J'apprécierais une option (touche ALT) : importer sans accrocher
+
+10) import audio
+Pourquoi ne pas importer dans une librairie ou un pool ? (ma liste de type EXCEL évoquée ci-dessus)
+Puis agencer les matériaux ?
+Exemple : quand le projet est copieux : où se trouve le fichier Atmosph34 ? Est-il bien chargé ? Est-il caché derrière un autre ?
+Je vais dans ma librairie, je clique sur le nom de fichier et SCORE me dit où se trouve mon fichier.
+
+11) Interface
+Ok, je suis débutant, mais j'ai bien l'impression de cliquer pil poil au même endroit (ex : croix jaune de liaison).
+Et je me retrouve à étirer l'objet au lieu de le lier au suivant.
+Il me faut 5 essais infructueux pour arriver à lier 2 objets. Et ceci, après 6 heures passées devant le logiciel.
+Donc il faudrait des boutons plus gros ; ou un truc plus explicite.
+D'ailleurs le lien entre 2 objets me pose problème "au départ" (croix jaune) et à l'arrivée (accrochage avec l'objet suivant).
+Dans les 2 cas, il faut s'y reprendre à 3 ou 4 fois ou plus.
+
+12) l'import de fichiers audio 1 par 1 fait planter SCORE
+12) l'ajout de 15 fichiers en 1 fois les mets sur une pile verticale
+Or la pile verticale sort de l'écran en bas (je ne vois que 2 fichiers) les 12 autres sont cachés.
+Il faut monter le bloc, dézoomer, zoommer, rebaisser le bloc
+
+13) a chaque action, on perd 30 ou 40% du temps à régler des problèmes d'interface.
+Impossible de se concentrer sur la composition elle-même.
+- il faut remettre les noms de fichiers
+- il faut zoomer dézoomer
+
+14) 25 fichiers importés
+Je ne les vois pas. Ils sont en dessous de la page utile.
+La hauteur de la page ne se ré-ajuste pas.
+
+15) autoscroll quand on déplace un processus (fichier audio)
+mais pas d'autoscroll quand on sort un processus d'un intervalle (glisement de 3 petits traits)
+autoscroll avec les états
+pas d'autoscroll avec les processus
+
+16) l'échelle temporelle en haut n'est pas assez précise (sous mes yeux : toutes les 25 secondes)
+Quand on bouge un processus, ce serait bien d'avoir une fenêtre de popup avec le temps exact en hh:mn:ss:ms
+Cela éviterait de devoir zoomer et dézoomer sans arrêt.
+Idée : on clique sur un état, dans l'inspecteur, on voit son temps absolu
+
+17) Selection par drag (encerclement) ou lasso: pas d'autoscroll pour aller chercher les parties cachées de l'écran
+Donc, il faut arrêter de sélectionner, dézoomer, sélectionner, zoomer
+
+18) Installation de 25 fichiers audio (voir photo d'écran) : 3h30 !!!!!!!! (8h30 à midi)
+Dans n'importe quel logiciel audio, cela prend 3 minutes
+
+19) barre de zoom : parfois on a les 2 flèches <->, mais cela se comporte comme la main.
+Note : bug difficile à reproduire
+Cela arrive 2 ou 3 fois sur 1/2 journée de travail.
+Je n'ai pas réussi à faire la démo à Thibaud.
+Mais cela vient de m'arriver de nouveau (seul) cet après-midi
+
+20) On insère un gain (ou un  processus à 1 paramètre), mais la boite fait 15cm de haut.
+Donc il faut la rétrécir en hauteur à 2 cm.
+Cela fait 2 gestes au lieu d'un seul.
+Il y a de nombreuses situations de ce genre : 2 ou 3 gestes au lieu d'un seul.
+
+21) on règles les sorties audio à la sortie d'un objet Gain.
+Or ce réglage est planqué ; il faut cliquer pour y accéder.
+Ce serait mieux si on voyait le réglage OUTPUT
+On voit le fichier, son nom, son gain, mais pas son output
+(voir figure)
+
+22) Saisie dans les boites de texte
+On double clique ; mais il y a à la fois "select all" et "curseur clignotant"
+C'est troublant
+
+23) import de fichiers : j'en prends un paquet, je les glisse en plein mileu de l'écran, à un endroit où je vais avoir la place de les déballer.
+Patatras ! Les 18 fichiers se collent à un endroit improbable, mais déjà fort chargé.
+Donc X clics de souris à la place d'un seul
+
+23b) suite : comme mon bloc de 15 fichiers est au mauvais endroit, il faut que je les sélectionne tous afin de les déplacer.
+Et là, il faut environ 5 clics pour les sélectionner : dézoomer à fond, gérer le bas de page invisible, sélectionner au lasso, déplacer, rezoomer, désélectionner
+
+24) il me semble qu'il manque un zoom vertical
+Quand on charge 15 fichiers d'un coup : pb
+Quand on gère un gros projets avec 6 ou 10 pistes
+
+25) je pense que les boutons d'interface gagneraient à être un peu plus gros (point bleu, croix jaune)
+Et aussi à montrer leur activité plus clairement
+Le passage du point bleu à la croix jaune (qui se gonfle de 10%) est peu perceptible pour un novice.
+L'accrochage d'un état de fin à l'état de début du processus suivant est dificile à ressentir.
+L'opération ne relève pas de l'intuition, mais de l'acquisition d'une certaine virtuosité !
+En tant que novice, j'ai refait parfois 5 ou 8 fois le même geste avant de réussir mon action.
+Parfois j'ai abandonné par dépit et demandé à Thibaut.
+Parfois, cela fonctionait sans que je comprenne pourquoi.
+
+26) superposition de processus (voir photo d'écran : SuperpositionN254.png)
+N254 est au dessus de NuageV413, mais sa poignée (état) est en dessous !!
+Refrain : il faut donc 3 clics pour faire une opération simple à 1 clic.
+Sur la photo d'écran : le problème est assez insoluble :
+je ne peux pas toucher N254, car sa poignée est en dessous.
+Je ne peux pas toucher à NuageV413 car il fait partie d'un bloc de 10 fichiers qui dépasse la surface de l'écran et qui est inselectionnable.
+Refrain : il faut donc 30 clics pour faire une opération simple à 1 clic.
+Il faut donc que je déplace les 10 fichiers empilés 1 par un afin de libérer la place nécessaire.
+
+27) suite de 23 et 26 (figure SuperpositionSuite.png)
+Mes nuages se sont installés au dessus de NuageV1 (au lieu de s'installer dans une zonne vierge).
+Je cherche à agréger N232 avec N232Wet (la réverb de N232).
+Comme NV232 chevauche NuageV1, les fonctions usuelles ne fonctionnent pas.
+Refrain : il faut donc 3 clics pour faire une opération simple à 1 clic.
+Il faut en premier lieu déplacer les Nuages232 afin d'enlever la superposition.
+Rappel : c'est le logiciel qui m'a imposé cette superposition. Moi, j'avais visé une zone de travail vierge.
+
+28) Je cherche à agréger N232 avec N232Wet (la réverb de N232). Suite
+Je viens de faire 14 agrégats verticaux de 2 fichiers audio. Je les replie verticalement afin de gagner de la place
+Voir figure ImportRepli.png
+Bizarre ! Mes fichiers sont tous différents en longueur.
+Or on voit sur l'écran que tous les processus N1 à N1238 ont désormais tous la même longueur !
+Refrain : il faut donc 30 clics pour faire une opération simple à 1 clic.
+Il faut dont réouvrir chaque processus replié et lui redonner sa longueur réelle.
+
+29) Je duplique un processus : il perd son nom pour acquérir un bon bidon
+Refrain : il faut donc 3 clics pour faire une opération simple à 1 clic.
+Précision : clic droit / Object / Duplicate
+Il duplique, mais accroche le duplicata en dessous.
+Ensuite, il faut glisser le duplicata plus loin... (saisir les 3 traits) Et là, on perd le nom. Grr !
+Précision : Alt D ou a méthode ci-dessus fait perdre le nom
+En revanche Ctrl C / Ctrl V fonctionne à merveille.
+
+30) Une impression... un pressentiment...
+Très souvent, je fais des manipulations d'interface et cela ne fonctionne pas ou c'est erroné.
+Je refais et c'est erroné. Je refais à l'identique et cela fonctionne.
+Bien évidemment, je ne peux rien écrire dans ce document.
+Mais, c'est tellement systèmatique que cela finit par devenir louche.
+Cela me fait l'impression que l'interface graphique a systématiquement 5 secondes de retard sur le geste à la souris.
+C'est comme quand je demande à Thibaud de me dépanner (pour la 3722ème fois).
+Il me dit : attends 3 secondes, je finis un truc et je suis à toi.
+
+31) déjà dit plus haut : je travaille sur un projet de 27mn et j'ai besoin de positionner des processus à la seconde près.
+L'échelle des temps en haut de l'écran (graduée toutes les 30 s est inutilisable).
+Refrain : il faut donc 6 clics pour faire une opération simple à 1 clic.
+Donc, pour placer un fichier au bon endroit, il faut dézoomer, saisir le fichier, zoomer, déplacer le fichier, dézoomer, se déplacer vers le fichier suivant. 
+C'est insuportable !
+
+32) déjà dit plus haut : combinaison "amusante" de 26,28, 30
+le processus N232 a changé de longueur lors des imports.
+Je le déplie, mais pas de bol ! Son dépliement le fait chevaucher la piste des Atmosphères.
+Je clique et drague pour rectifier la longueur : les flèches d'étirements appraissent, mais rien ne se passe
+Je clique et drague pour rectifier la longueur : rien ne se passe ; est-ce du à la superposition ?
+Je clique et drague pour rectifier la longueur : soudain, cela fonctionne.
+
+33) suite de 23)
+Mon paquet de fichiers audio / processus est placé au mauvais endroit.
+Impossible de de les sélectionner tous au lasso afin de les déplacer ensemble.
+Il faut le faire 1 par 1.
+Refrain : il faut donc 12 clics pour faire une opération simple à 1 clic.
+
+34) A l'import de plusieurs fichiers audio, les processus perdent leur taille.
+En l'absence de fonction "processus / fit to audiofile", le temps devient très flou.
+Il faut retrouver le temps de fin de fichier au pif.
+La musique avec tempo : cela ne fonctionne pas au pif !
+Ce bug rikiki est rédhibitoire !
+Je ne peux pas enchaîner 2 fichiers audio rythmés de façon fiable !
+
+34b) Idem 34 : je veux enchaîner pis poil 2 fichiers audio.
+Je zoome à fond, à fond à fond (donc encore du temps perdu)
+Impossible de jouxter 2 fichiers audio
+Les processus restent séparés de 10ms qui semblent incompressibles.
+
+35) suite de 32) je déplie le fichier / chevauchement / 3 essais pour y arriver
+Oui, mais le rétrécissement du processus me déplace ma timeline verticalement.
+Eveidemment, je l'avais placé manuellement dans un endroit vierge.
+Ce déplacement imposé par le logiciel me la fait chevaucher d'autres objets.
+Refrain : il faut donc X clics pour remettre l'interface propre : sans chevauchement et compréhensible pour un compositeur.
+
+36) Chevauchement (suite de 32) : si un processus déborde partiellement de la fenêtre, alors cela cafouille.
+Cela résiste.
+Refrain : il faut donc X clics pour faire une opération simple à 1 clic.
+
+37) Contraintes de déplacement
+la saisie d'un processus impose une contrainte de déplacement uniquement vertical. TB
+la saisie d'un état début ou fin (en revanche) part dans toutes les directions
+l'étirement / rétrécissement d'un processus ne possède pas de contrainte vertic ou horiz.
+Tout cela n'est pas logique
+étrirement / rétrécissement devrait avoir une interdiction de déplacement vertical.
+Dans la msure où "processus" possède une contrainte verticale, alors "état" devrait avoir une contrainte horizontale.
+
+38) Je confirme que parfois le passage de "état de fin" à "croix jaune" ne se fait pas.
+Il faut le faire 3 fois avant que cela fonctionne
+
+38b) dans le même ordre d'idée : la connexion via la "croix jaune" de "état de fin" à "état de début"
+L'accrochage à "l'état de début", c'est : quand ça lui plait.
+a) C'est très souvent : 2 fois, cela ne fonctione pas ; le 3ème fois, ok !
+b) je ne comprends pas quand les objets s'accrochent. Le retour visuel n'est pas évident.
+J'ai obervé Thibaud : il décale légèrement et verticalement ses objets ; et le retour visuel est : un léger saut vertical.
+J'ai essayé de faire pareil : 2 fois, cela ne fonctionne pas ; 1 fois cela fonctionne.
+Si les processus sont alignés horizontalement : pas de retour visuel
+Si les processus ne sont TROP pas alignés : cela n'accroche pas
+Si les processus sont UN POIL pas alignés : cela accroche.
+Encore une fois :
+Refrain : il faut donc X clics pour faire une opération simple à 1 clic.
+
+39) suite de 29 (figure : duplicataCollé enBas.png)
+J'avais fait la méthode alt+D pour dupliquer un processus.
+Il me le met en dessous au lieu de après.
+Mais le problème est que le duplicata en dessous se trouve collé en ba s de l'écran.
+On peut bouger l'original en X ou Y, mais le duplicata reste scotché en bas de l'écran.
+Refrain : il faut donc X clics pour faire une opération simple à 1 clic.
+
+40) je clique en plein milieu de l'écran et je joue avec la molette : zoom et dézoom.
+Je fais cela 2 ou 3 fois ; et au fil du temps, le temps à l'écran glisse.
+Je me suis amusé à cela pour la raison suivante :
+Il m'est arivé plusieurs fois de zoomer-dézoomer (pour les nombreuses raisons exposées ci-dessus)
+Et de ne pas me retrouver à mon endroit de départ. J'ai essayé de comprendre pourquoi.
+Mais je n'ai pas vraiment réussi à comprendre.
+Refrain : il faut donc X clics pour faire une opération simple à 1 clic.
+Conclusion : en plus de devoir zoomer-dézoomer, il faut aussi sans cesse recadrer le lieu de travail
+
+41)
+
+
+
+
+
+
+
+39) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
