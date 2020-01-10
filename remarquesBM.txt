@@ -251,15 +251,84 @@ Mais je n'ai pas vraiment réussi à comprendre.
 Refrain : il faut donc X clics pour faire une opération simple à 1 clic.
 Conclusion : en plus de devoir zoomer-dézoomer, il faut aussi sans cesse recadrer le lieu de travail
 
-41)
+41) zoom
+pour caler précisément un fichier sur la timeline, il faut zoomer à fond, à fond.
+Une fois qu'on est zoomé à fond, on ne peut rien faire, il faut dézoomer
+
+42) placement des fichiers
+Si on veut un fichier à 13'03,025 : rien ne permet de faire cela avec précision ?
+On glisse à la main, on zoome à fond ; et on prie pour que cela soit proche.
+
+42b) Quand on a 50 fichiers à positionner et à caler, c'est juste infaisable !
+zoomer à fond (à la ms), positionner (de façon imprécise) dézoomer à fond, passer au suivant.
+Mais... le fait de bouger un fichier bouge tous les suivants.
+
+42c) quand on est à l'échelle de la ms et que l'on doit déplacer un fichier de 15 secondes.
+Cela prend 3 plombes ; ou alors il faut dézoomer, déplacer, rezoomer
+
+Je ré-itère ma demande de pouvoir éditer dans une sorte de liste EXCEL.
+
+43) clic sur l'état de début. J'ai la croix, je glisse...
+Et là, il y a 3 comportements différents :
+- le point bleu s'allume et le processus se déplace. TB
+- le processus devient sélectionné ?
+- un processus Interval.X est créé avec mon processus
+Au bout de X fois, je remarque que pour les cas 2 et 3, le point bleu ne s'allume pas.
+
+43b) Dans les cas 2 et 3, je fais UNDO.
+Mais pour le cas n°2, il est fort probable que le UNDO me détruise ma modification précédente ?
+Donc, je dois retourner en arrière afin de vérifier.
+
+
+44) je comprends le principe du logiciel et du temps élastique (donc relatif).
+Mais un compositeur ne peut pas travailler en relatif !!
+Besoin du compositeur : Le 3ème mouvement commence à 7mn (environ).
+Réalité du logiciel : Le 3 mvt commence à 0'25 + 1'32 + 0'33 + ...
+C'est impossible de travailler de la sorte.
+Il faut pouvoir visueliser un temps absolu (même si c'est une approximation ou un calcul cosmétique).
+
+45) j'ai vu un bug d'affichage (non reproductible)
+Je sélectionne à fichier situé à 1'22 sur la time line (vu dans l'inspecteur)
+Je veux le caler précisément or la timeline affiche 25 mn !!!
+Dès que j'y touche, la timeline se remet en place.
+Toujours cette impression que l'interface utilisateur a une rame de retard
+(car mon action précédement portait sur la fin du fichier : entre 25' et 27')
+Voir 2 figures : décalageTimeline : 0'00 et 3'40
+
+46) si un processus a son état de début hors fenêtre, l'étirement est impossible ; ou buggé
+
+47) bug : j'appuie sur CTRL + molette ; et l'écran glisse de haut en bas (donc molette seule)
+Toujours cette impression que l'interface utilisateur a une rame de retard
+
+Ok : c'est à cause du switch entre applications !!
+Le CTRL a été fait sous un autre logiciel, mais la molette roule sur SCORE.
+Cela reste incompréhensible ! car si on est dans un autre logiciel (KATE) alors la molette ne devrait pas réagir dans SCORE.
+
+48) Hier, j'ai entré 15 fichiers de violons et j'ai passé 2h30 à les mettre en place.
+C'est un temps excessif. Dans n'importe quel logiciel, ce serait entre 3 et 10 mn.
+Mes positions sont dans un fichier EXCEL, donc cela aurait pu prendre 1 mn.
+Aujourd'hui, toutes les positions ont bougé. Toutes, toutes toutes.
+Il me faut de nouveau 1h pour tout recaler.
+C'est peut-être de ma faute, je n'en sais rien.
+Je voudrais une fonction "verrouillage temporel"
+
+49) Avant-hier, j'avais calé mes 12 fichiers "atmosphère".
+Ils ont eu aussi bougé.
+Je ne sais pas la faute à qui.
+
+50) Thibaud n'est pas là.
+J'allume le dispositif son et je fais play : rien.
+Je fais PLAY : rien
+Je fais PLAY : cela fonctionne
+Il faut toujours faire 3 fois ma même manip afin que cela fonctionne !!
+
+51) import-export de MIDIFILE dans les pianoroll
+52) copier-coller à l'intérieur des pianoroll
 
 
 
 
 
-
-
-39) 
 
 
 
